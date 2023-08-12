@@ -5,4 +5,3 @@ flask-cors
 # Machine learning
 scikit-learn
 xgboost
-gunicorn

@@ -1,3 +1,5 @@
+services:
 - name: oc-predictor
+  dockerfile: Dockerfile
   env: python
-  startCommand: "gunicorn -b 0.0.0.0:$PORT api.main:app"
+  startCommand: "gunicorn -b 0.0.0.0:$PORT main:app"
