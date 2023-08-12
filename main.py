@@ -8,7 +8,7 @@ from xgboost import XGBClassifier
 
 app = Flask(__name__)
 CORS(app, origins=['http://localhost:3000',
-     'https://oc-predictor.vercel.app/'])
+     'https://oc-predictor.vercel.app'])
 
 
 cancer_data = pd.read_csv('ovarian.csv')
