@@ -1,5 +1,6 @@
 Flask
 pandas
+flask-cors
 
 # Machine learning
 scikit-learn
